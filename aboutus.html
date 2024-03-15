@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="description" content="Genmo Properties LLC">
     <meta name="keywords" content="house, rent, property, houses for rent, houses for sale">
@@ -8,6 +9,22 @@
     <meta name="viewpoint" content="width=device=width, initial-scale=1.0">
     <title>About Us</title>
 </head>
+<style>
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        margin-left: 175px;
+    }
+    .row {
+        display: flex;
+    }
+    p {
+        float: right;
+        width: 600px;
+        padding-right: 600px;
+    }
+</style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0KZZZCEQSW"></script>
 <script>
@@ -28,7 +45,7 @@
             </ul>
         </nav>
 <div>
-    <img src="EdwardPicture.jpg" alt="Edward" width="156" height="216">
+    <img src="EdwardPicture.jpg" alt="Edward" width="156" height="216" style="margin-left: 400px;">
     <p>
         Edward is a South Carolina native who graduated from Clover High School in 2004. He then joined 
         the Marine Corps in 2006 as a Communication Electronic Maintenance Technician. He has deployed a 
@@ -39,13 +56,19 @@
         majoring in Integrated Information Technology and will be graduating in May 2025.
     </p>        
 </div>
-<div>
-    <img src="Random1.jpg" alt="Random1" width="194" height="132"> 
-    <img src="Random2.jpg" alt="Random2" width="194" height="132"> 
-    <img src="Random3.jpg" alt="Random3" width="194" height="132">
+<div class="row">
+    <div class="column">
+        <img src="Random1.jpg" alt="Random1" width="194" height="132">
+    </div>
+    <div class="column">
+        <img src="Random2.jpg" alt="Random2" width="194" height="132"> 
+    </div>
+    <div class="column">
+        <img src="Random3.jpg" alt="Random3" width="194" height="132">
+    </div>
 </div> 
 <div>   
-    <img src="AndreaGentry2.jpeg" alt="Andrea" width="156" height="216">
+    <img src="AndreaGentry2.jpeg" alt="Andrea" width="156" height="216" style="margin-left: 400px;">
     <p>
         Andrea was born in Ecuador and moved to the United States in 2006. She then joined the Marine Corps 
         in 2008 as a Supply Administration Clerk. During her time in the marine Corps she deployed to 
